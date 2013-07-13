@@ -3,7 +3,7 @@ $NWar::Client::PrefLimit = 50;
 
 if(!isFile("./Limited.cs"))
 {
-  error("+- ERROR: Corrupted Add-on! \"Add-ons/Client_LENWarfare/Limited.cs\" file is missing!");
+ 	error("+- ERROR: Corrupted Add-on! \"Add-ons/Client_LENWarfare/Limited.cs\" file is missing!");
 	warn("+- National Warfare Client will not work without \"Add-ons/Client_LENWarfare/Limited.cs\"");
 	clientCmdNW_NotifyPlayer("Your National Warfare Limited Edition Client add-on will not work without the \"Limited.cs\" file, please contact the creator.","File Error Notification");
 }
